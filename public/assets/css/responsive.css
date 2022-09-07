@@ -1,0 +1,22 @@
+/* aside code */
+@media (max-width: 1200px) {
+    .main.active, .main {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    .theme-aside {
+        width: 0;
+        padding: 0;
+    }
+    .theme-aside.minimized {
+        width: 250px;
+        padding: 20px 10px;
+    }
+    .theme-aside.minimized .menu span {
+        display: inline;
+    }
+    .theme-aside .logo.d-none {
+        display: block !important;
+    }
+}
+/* aside code */
